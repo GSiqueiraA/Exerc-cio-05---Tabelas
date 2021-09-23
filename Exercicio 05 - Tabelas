@@ -1,8 +1,15 @@
+<head>
+<h1><b>Tabelas</b></h1>
+<head>
+
+<body>
+<b><h2>Célula com 2 colunas</h2></b>
 <table border="1">
     <tr>
         <td><center><b>Nome</b></center></td>
         <td><center><b>Telefone</b></center></td>
     </tr>
+    
     <tr>
         <td>José das Couves</td>
         <td>(22) 2728-6677
@@ -11,18 +18,44 @@
    
 </table>
 <br>
-<b>Célula com 2 colunas</b><br>
+<br>
+<b><h2>Célula com 2 linhas</h2></b>
 <table border="1">
+
     <tr>
         <td><b>Nome</b></td>
-        <td><b>Telefone</b></td>
+        <td><center>José das Couves<center> </td>
     </tr>
+    
     <tr>
-        <td>José das Couves</td>
-        <td>(22) 2728-6677</td>
-        <td>(22) 2728-6677</td>
+    <td><b>Telefone</b></td>
+    <td>(22) 2728-6677
+    (22) 2728-6677</td>
     </tr>
-   <br>
-
-
+    
+    <tr>
+   
+    </tr>
+</table>
+<br>
+<br>
+<b><h2>Tabela com legenda</b></h2>
+&nbsp;&nbsp;Total de despesas por<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mês</center>
+<table border="1">
+    <tr>
+        <td><b><center>Mês</center></b></td>
+        <td><b><center>Total<center> </b></td>
+    </tr>
+    
+    <tr>
+    <td>Janeiro</td>
+    <td>R$ 1.500,00</td>
+    </tr>
+    
+   <tr>
+    <td>Fevereiro</td>
+    <td>R$ 1.470,00</td>
+    </tr>
+    
+</table>
 </body>
